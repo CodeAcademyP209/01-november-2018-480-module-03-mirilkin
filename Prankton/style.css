@@ -1,0 +1,189 @@
+#nav-bar .container .row .col-8 ul{
+    display: flex;
+    list-style: none;
+    color: white;
+    padding: 9px;
+    
+}
+#nav-bar .container .row .col-2 img{
+    color: white;
+    margin-top: 20px; 
+}
+#nav-bar .container .row .col-2 button{
+    border: 1px solid white;
+    background-color: transparent; 
+    border-radius: 13px;
+    padding: 7px;
+    color: white;
+    margin: 9px;
+    padding: 7px 15px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#nav-bar{
+    height: 60px;
+    background-image: linear-gradient(to right, #091234 , #1071C7);
+}
+#nav-bar .container .row .col-8 ul a li{
+    margin: 10px;
+    padding: 0 7px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.birinci{
+    
+}
+body{
+    margin: 0;
+}
+#home{
+background-image: url(images/first.jpg);
+height: 600px;
+background-attachment: fixed;
+margin-bottom: 50px;
+}
+#home .overlay{
+    background-image: linear-gradient(to right,rgba(10, 15, 47, 0.87), rgba(29, 113, 198, 0.87));
+    height: 600px;
+}
+#home .overlay .container .row .col-7 .text{
+color: white;
+margin-top: 150px;
+}
+#home .overlay .container .row .col-5 .image img{
+    width: 425px;
+    margin-top: 175px;
+}
+#home .overlay .container .row .col-7 .text .buttons button{
+    border: 1px solid white;
+    color: white;
+    border-radius: 10px;
+    background: transparent;
+    margin: 10px;
+    padding: 10px;
+}
+#home2{
+    margin-bottom: 50px;
+}
+#home2 .container .row .mid .text h2{
+text-align: center;
+}
+#home2 .container .row .mid .text p{
+    text-align: center;
+}
+#home2 .container .row .mid .text span i{
+    margin: 3px;
+}
+#home2 .container .row .mid .text span{
+    margin-left: 135px;
+}
+#home2 .container .row .col-4 .box .icon i{
+    font-size: 30px;
+    color: rgba(29, 113, 198);
+}
+#home2 .container .row .col-4 .box .icon{
+    text-align: center;
+}
+#home2 .container .row .col-4 .box h5{
+    text-align: center;
+}
+#home2 .container .row .col-4 .box p{
+    text-align: center;
+}
+#home2 .container .row .col-4 .main{
+    width: 350px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+}
+#home2 .container .row .col-4 .box{
+    padding: 10px;
+}
+#home2 .container .row .col-4 .main .icon i{
+color: black !important;
+}
+#feature .overlay{
+    height: 600px;
+    background-image: linear-gradient(to right,rgba(10, 15, 47, 0.87), rgba(29, 113, 198, 0.87));
+}
+#feature{
+    height: 600px;
+    margin-bottom: 50px;
+    background-image: url(images/first2.jpg)
+}
+#feature .overlay .container .row .col-4 .text1, .text2{
+    color: white;
+}
+#feature .overlay .container .row .col-4 .image img{
+    margin: 50px;
+}
+#feature .overlay .container .row .col-4 .text1{
+    margin: 50px;
+}
+#feature .overlay .container .row .col-4 .text1 .circle i{
+    margin-left: 260px;
+    margin-top: -90px;
+    position: absolute;
+}
+#feature .overlay .container .row .col-4 .text2{
+    margin: 50px;
+}
+#feature .overlay .container .row .col-4 .text2 .circle i{
+    position: absolute;
+    margin-left: -40px;
+    margin-top: -90px;
+}
+#showcase .container .row .main .text h2{
+    text-align: center;
+}
+#showcase .container .row .main .text p{
+    text-align: center;
+}
+#showcase .container .row .main .text span i{
+    margin: 3px;
+}
+#showcase .container .row .main .text span{
+    margin-left: 135px;
+}
+#showcase .container .row .col-6 .text{
+    margin-top: 80px;
+}
+#showcase .container .row .col-6 .text button{
+    background-image: linear-gradient(to right,rgb(0, 8, 59), rgba(29, 113, 198));
+    color: white;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 25px;
+}
+#showcase{
+    margin-bottom: 50px;
+}
+#video .overlay{
+    background-image: linear-gradient(to right,rgba(10, 15, 47, 0.7), rgba(29, 113, 198, 0.7));
+    height: 300px;
+}
+#video{
+    background-image: url(images/first.jpg);
+    background-attachment: fixed;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 1000px;
+}
+#video .overlay .container .row .text{
+    color: whitesmoke
+}
+#video .overlay .container .row .text h1{
+    margin-left: 400px;
+    margin-top: 150px;
+}
+#video .overlay .container .row .text .icon .circle{
+   padding: 35px;
+    border: 14px solid #ffffff7a;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 480px;
+}
+#video .overlay .container .row .text .icon .circle i{
+font-size: 40px;
+color: black;
+ }
